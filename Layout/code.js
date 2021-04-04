@@ -33,31 +33,6 @@ import Icon from 'react-native-vector-icons/FontAwesome';
   title="Button with icon component"
 />
 
-<Button
-  icon={{
-    name: "arrow-right",
-    size: 15,
-    color: "white"
-  }}
-  title="Button with icon object"
-/>
-
-<Button
-  icon={
-    <Icon
-      name="arrow-right"
-      size={15}
-      color="white"
-    />
-  }
-  iconRight
-  title="Button with right icon"
-/>
-
-<Button
-  title="Loading button"
-  loading
-/>
   `;
 export default function App() {
   return (

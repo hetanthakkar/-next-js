@@ -8,11 +8,13 @@
     "type-check": "tsc"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.3",
     "@zeit/next-css": "^1.0.1",
     "bootstrap": "^4.6.0",
     "next": "latest",
     "react": "^17.0.1",
     "react-bootstrap": "^1.5.2",
+    "react-device-detect": "^1.17.0",
     "react-dom": "^17.0.1",
     "react-syntax-highlighter": "^15.4.3",
     "react-view": "^2.3.7",
